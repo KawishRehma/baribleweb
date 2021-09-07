@@ -23,12 +23,12 @@ export const Header = () => {
       />
       
     </Form>
-      <Nav.Link href="#action1" style = {{marginLeft: 20}}> <b>Explore </b></Nav.Link>
-      <Nav.Link href="#action2" style = {{marginLeft: 20}}> <b>My items </b></Nav.Link>
-      <Nav.Link href="#action2" style = {{marginLeft: 20}}><b>Following </b></Nav.Link>
-      <Nav.Link href="#action2" style = {{marginLeft: 20}}><b>Activity </b></Nav.Link>
+      <Nav.Link href="/" style = {{marginLeft: 20}}> <b>Explore </b></Nav.Link>
+      <Nav.Link href="/myitem" style = {{marginLeft: 20}}> <b>My items </b></Nav.Link>
+      <Nav.Link href="/following" style = {{marginLeft: 20}}><b>Following </b></Nav.Link>
+      <Nav.Link href="/activity" style = {{marginLeft: 20}}><b>Activity </b></Nav.Link>
       <Nav.Link style = {{marginLeft: 20}}>|</Nav.Link>
-      <Nav.Link href="#action2" style = {{marginLeft: 20}}><b>How it works </b></Nav.Link>
+      <Nav.Link href="/howitworks" style = {{marginLeft: 20}}><b>How it works </b></Nav.Link>
       <NavDropdown title="Community" id="navbarScrollingDropdown" style = {{marginLeft: 20}}> 
         <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
@@ -36,7 +36,7 @@ export const Header = () => {
         <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
       </NavDropdown>
       <Button variant="warning" >Create</Button>
-      <Button variant="outline-secondary"style = {{marginLeft: 20}}>Connect wallet</Button>
+      <Button variant="outline-secondary" style = {{marginLeft: 20}}>Connect wallet</Button>
 
     </Nav>
     
