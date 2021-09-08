@@ -1,15 +1,36 @@
-import { width } from "dom-helpers";
-import React from "react";
-import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import React, { Fragment } from "react";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import { ChartComponent } from "./ChartComponent";
 
 export const ExploreComponent = () => {
   return (
-    <div class="row">
-      <div class="column">
-        <img src="assets/images/front.jpg" alt="Snow" style={{marginLeft:20,marginTop: 20,marginRight: 5, height: "200%"}} />
-        <img src="assets/images/first.jpg" alt="Forest" style={{marginLeft:20,marginRight: 5, marginBottom: 150 }} />
-        <img src="assets/images/front.jpg" alt="Mountains" style={{marginLeft:20,marginTop: 20,marginRight: 5}} />
-      </div>
-    </div>
-  );
+    <Fragment>  
+      <Container>
+        <Row>
+        <Col style={{marginLeft: "-60px", marginTop: "20px"}}>
+            <Image src="assets/images/first.jpg" width="500" height="500" rounded/>
+          </Col>
+          <Col style={{ marginTop: "20px"}}>
+            <Image
+              src="assets/images/front.jpg" width="210" height="240" rounded
+            />
+            <Image src="assets/images/third.jpg" width="210" height="240" style={{ marginTop: "20px"}}  rounded/>
+          </Col>
+          <Col style={{marginLeft:"-14px", marginTop: "20px"}}>
+            <Image src="assets/images/second.jpg" width="210" height="240" rounded/>
+            <Image src="assets/images/front.jpg" width="210" height="240" style={{ marginTop: "20px"}}  rounded/>
+          </Col>
+          <Col style={{marginLeft:"-12px", marginTop: "20px"}}>
+            <Image src="assets/images/third.jpg" width="210" height="240"  rounded/>
+            <Image src="assets/images/first.jpg" width="210" height="240" style={{ marginTop: "20px"}}  rounded/>
+          </Col>
+        </Row>
+      </Container>
+
+      <ChartComponent />
+    </Fragment>
+    
+    
+        
+  ); 
 };

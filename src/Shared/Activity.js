@@ -7,3 +7,18 @@ export const Activity = () => {
         </div>
     )
 }
+
+{/* <div class="row">
+<div class="column">
+  <img src="assets/images/front.jpg" alt="Snow" style={{width:"33"}} />
+
+
+  <img src="assets/images/first.jpg" alt="Forest" style={{width:"33"}} />
+
+
+  <img src="assets/images/front.jpg" alt="Mountains" style={{width:"33"}} />
+</div>
+</div>
+
+);
+}; */}
