@@ -1,15 +1,17 @@
 import React from 'react';
-import {Dropdown, DropdownButton} from "react-bootstrap";
+import {NavDropdown} from 'react-bootstrap';
 
 export const ChartComponent = () => {
     return (
-        <div style= {{marginLeft: "50px", marginTop: "20px"}}>
-            
-                <DropdownButton id="dropdown-basic-button" title="Dropdown button">
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                </DropdownButton>
+        <div style= {{marginLeft: "50px", marginTop: "20px"}}><h3 style= {{color: 'black'}}>
+            <NavDropdown    title= "Top collection in 7 days" id="navbarScrollingDropdown" > 
+        <NavDropdown.Item href="#action3">1 day</NavDropdown.Item>
+        <NavDropdown.Item href="#action4">7 days</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action5">30 days</NavDropdown.Item>
+      </NavDropdown>
+      </h3>
         </div>
+        
     )
 }

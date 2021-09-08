@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { ChartComponent } from "./ChartComponent";
+import { CollectionComponent } from "./CollectionComponent";
+
 
 export const ExploreComponent = () => {
   return (
@@ -26,8 +28,8 @@ export const ExploreComponent = () => {
           </Col>
         </Row>
       </Container>
-
       <ChartComponent />
+      <CollectionComponent />
     </Fragment>
     
     
