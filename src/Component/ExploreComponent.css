@@ -1,0 +1,88 @@
+
+.e-main-image{
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.e-main-image h2{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 37px;
+
+}
+.e-main-image img{
+    
+    border-radius: 25px;
+}
+.e-one{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.e-one h5{
+    color: white;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.e-one img{
+    border-radius: 20px;
+}
+.e-one-inner{
+    margin-top: 20px;
+}
+.e-one-inner h5{
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.e-two{
+    margin-top: 20px;
+    margin-left: -8px;
+}
+.e-two img{
+    border-radius: 20px;
+}
+.e-two h5{
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.e-two-inner{
+    margin-top: 20px;
+}
+.e-two-inner h5{
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.e-three{
+    margin-top: 20px;
+    margin-left: -12px;
+}
+.e-three h5{
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.e-three img{
+    border-radius: 20px;
+}
+.e-three-inner{
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.main-explore{
+    
+}

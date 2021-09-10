@@ -9,10 +9,10 @@ import { Howitworks } from './Shared/Howitworks';
 import { Myitems } from './Shared/Myitems';
 
 
-
 function App() {
   return (
     <div>
+      
       <Header/>
       <BrowserRouter>
       <Route exact path = "/" component={ExploreComponent} />
@@ -21,6 +21,7 @@ function App() {
       <Route exact path = "/activity" component={Activity} />
       <Route exact path = "/howitworks" component={Howitworks} />
       </BrowserRouter>
+      
     </div>
   );
 }

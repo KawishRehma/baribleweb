@@ -1,0 +1,79 @@
+.Hotbid-one {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.card-main {
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 16rem;
+  height: 27rem;
+}
+
+.card-main img {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: -2.5px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.card-p1 {
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.card-p2 {
+  color: rgb(46, 161, 255);
+  font-weight: bold;
+}
+
+.btn-para {
+  display: flex;
+  margin-top: -10px;
+}
+
+.btn-para .btn-heart {
+  margin-top: -7px;
+  margin-left: 90px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.dotted-bar {
+  margin-top: 20px;
+}
+
+.dotted-bar .btn2-dotted {
+  margin-left: 110px;
+  border-radius: 25px;
+}
+.dotted-bar .circle-img {
+  border-radius: 20px;
+  margin-left: 12px;
+  height: 40px;
+  transition: 0.3s;
+  width: 40px;
+}
+.dotted-bar .circle-img1 {
+  border-radius: 20px;
+  margin-left: -8px;
+  width: 40px;
+  transition: 0.3s;
+  height: 40px;
+}
+.dotted-bar .icon-circle {
+  margin-left: -10px;
+  margin-top: 20px;
+}
+
+.circle-img:hover {
+    transform: translate(0, -10px);
+    position: relative;
+    
+}
+.dotted-bar .circle-img1:hover {
+    
+    transform: translate(0, -10px);
+    position: relative;
+    
+}

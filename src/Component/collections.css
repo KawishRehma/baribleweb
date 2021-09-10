@@ -1,0 +1,127 @@
+
+.row-1 img{
+    border-radius: 50px;
+}
+
+/* .cl{
+    display: flex;
+}
+.cl p{
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.p-no{
+    margin-left: 0px;
+    
+    padding: 0px;
+    font-style: bold;
+    font-weight: 800;
+}
+ .p-let{
+     margin-left: 0px;
+ }  */
+
+.p-no{
+    margin-left: 0px;
+    padding: 0px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.p-let{
+    margin-left: 0px;
+    
+}
+
+.one{
+    display: flex;
+}
+
+.one .p-no{
+    margin-top: 10px;
+}
+
+.one img{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.one .p-let{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.one .icon-one{
+    margin-left: -12px;
+    margin-top: 20px;
+}
+
+.one .p-let-no1{
+    margin-top: 25px;
+    margin-left: -31px;
+}
+.one .p-let-no2{
+    margin-top: 25px;
+    margin-left: -44px;
+}
+.one .p-let-no3{
+    margin-top: 25px;
+    margin-left: -63px;
+}
+.one .p-let-no4{
+    margin-top: 25px;
+    margin-left: -65px;
+}
+.one .p-let-no5{
+    margin-top: 25px;
+    margin-left: -48px;
+}
+.one .p-let-no6{
+    margin-top: 25px;
+    margin-left: -38px;
+}
+.one .p-let-no7{
+    margin-top: 25px;
+    margin-left: -46px;
+}
+.one .p-let-no8{
+    margin-top: 25px;
+    margin-left: -42px;
+}
+.one .p-let-no9{
+    margin-top: 25px;
+    margin-left: -53px;
+}
+.one .p-let-no10{
+    margin-top: 25px;
+    margin-left: -46px;
+}
+.one .p-let-no11{
+    margin-top: 25px;
+    margin-left: -46px;
+}
+.one .p-let-no12{
+    margin-top: 25px;
+    margin-left: -53px;
+}
+.one .p-let-no13{
+    margin-top: 25px;
+    margin-left: -46px;
+}
+.one .p-let-no14{
+    margin-top: 25px;
+    margin-left: -53px;
+}
+.one .p-let-no15{
+    margin-top: 25px;
+    margin-left: -46px;
+}
+
+
+
+.chart-one{
+   margin-left: 50px;
+   margin-top: 30px;
+
+}
+
+

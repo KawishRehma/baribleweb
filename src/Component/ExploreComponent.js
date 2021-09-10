@@ -1,38 +1,90 @@
 import React, { Fragment } from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { ChartComponent } from "./ChartComponent";
 import { CollectionComponent } from "./CollectionComponent";
-
+import { HotBidComponent } from "./HotBidComponent";
+import "../Component/ExploreComponent.css";
 
 export const ExploreComponent = () => {
   return (
-    <Fragment>  
+    <Fragment>
       <Container>
         <Row>
-        <Col style={{marginLeft: "-60px", marginTop: "20px"}}>
-            <Image src="assets/images/first.jpg" width="500" height="500" rounded/>
-          </Col>
-          <Col style={{ marginTop: "20px"}}>
-            <Image
-              src="assets/images/front.jpg" width="210" height="240" rounded
+          <Col >
+            <div className ="e-main-image">
+            <h2> The Watcher </h2>
+            <img
+              src="assets/images/first.jpg"
+              width="500"
+              height="500"  
             />
-            <Image src="assets/images/third.jpg" width="210" height="240" style={{ marginTop: "20px"}}  rounded/>
+            </div>
           </Col>
-          <Col style={{marginLeft:"-14px", marginTop: "20px"}}>
-            <Image src="assets/images/second.jpg" width="210" height="240" rounded/>
-            <Image src="assets/images/front.jpg" width="210" height="240" style={{ marginTop: "20px"}}  rounded/>
+
+          <Col >
+            <div className="e-one">
+              <h5>G'EVOLs </h5>
+            <img
+              src="assets/images/front.jpg"
+              width="200"
+              height="240"
+              rounded
+            />
+            <div className="e-one-inner">
+            <h5> The Drops </h5>
+            <img 
+              src="assets/images/second.jpg"
+              width="200"
+              height="240"  
+            /> 
+            </div>
+            </div>
           </Col>
-          <Col style={{marginLeft:"-12px", marginTop: "20px"}}>
-            <Image src="assets/images/third.jpg" width="210" height="240"  rounded/>
-            <Image src="assets/images/first.jpg" width="210" height="240" style={{ marginTop: "20px"}}  rounded/>
+
+          <Col >
+          <div className="e-two">
+            <h5>Monsters</h5>
+            <img
+              src="assets/images/fifth.jpg"
+              width="200"
+              height="240"
+              rounded
+            />
+            <div className="e-two-inner">
+              <h5>FOMO's</h5>
+            <img 
+              src="assets/images/front.jpg"
+              width="200"
+              height="240"
+            />
+            </div>
+            </div>
+          </Col>
+
+          <Col >
+          <div className="e-three">
+            <h5> Turtle's </h5>
+            <img
+              src="assets/images/third.jpg"
+              width="200"
+              height="240"
+              rounded
+            />
+            <div className="e-three-inner">
+              <h5> JazzXR </h5>
+            <img 
+              src="assets/images/first.jpg"
+              width="200"
+              height="240"      
+            />
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
       <ChartComponent />
       <CollectionComponent />
+      <HotBidComponent />
     </Fragment>
-    
-    
-        
-  ); 
+  );
 };
