@@ -3,7 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ChartComponent } from "./ChartComponent";
 import { CollectionComponent } from "./CollectionComponent";
 import { HotBidComponent } from "./HotBidComponent";
+import {TopSeller} from "./TopSeller" ;
 import "../Component/ExploreComponent.css";
+import { SellerComponent } from "./SellerComponent";
 
 export const ExploreComponent = () => {
   return (
@@ -33,7 +35,7 @@ export const ExploreComponent = () => {
             <div className="e-one-inner">
             <h5> The Drops </h5>
             <img 
-              src="assets/images/second.jpg"
+              src="assets/images/third.jpg"
               width="200"
               height="240"  
             /> 
@@ -45,7 +47,7 @@ export const ExploreComponent = () => {
           <div className="e-two">
             <h5>Monsters</h5>
             <img
-              src="assets/images/fifth.jpg"
+              src="assets/images/second.jpg"
               width="200"
               height="240"
               rounded
@@ -65,7 +67,7 @@ export const ExploreComponent = () => {
           <div className="e-three">
             <h5> Turtle's </h5>
             <img
-              src="assets/images/third.jpg"
+              src="assets/images/fifth.jpg"
               width="200"
               height="240"
               rounded
@@ -85,6 +87,8 @@ export const ExploreComponent = () => {
       <ChartComponent />
       <CollectionComponent />
       <HotBidComponent />
+       <TopSeller />
+       <SellerComponent />
     </Fragment>
   );
 };

@@ -9,30 +9,70 @@ export const HotBidComponent = () => {
     <div className="Hotbid-one">
       <h3> Hot Bids </h3>
       <Row>
-        {/* <Col>
+      <Col>
           <Card
             className="card-main"
             style={{ width: "16rem", height: "27rem" }}
           >
             <div className="dotted-bar">
-              <img className="circle-img" src="assets/images/first.jpg" />
-              <img className="circle-img1" src="assets/images/front.jpg" />
 
+              <span className="something">
+              <img className="circle-img" src="assets/images/first.jpg" />
+                <span class="tooltiptext">Collection: Loot</span>
+                </span>
+              
+              <span className="something">
+                <img className="circle-img11" src="assets/images/fifth.jpg" />
+                <span class="tooltiptext">Creator: Lucere</span>
+                </span>
+                
               <Button className="btn2-dotted" variant="light">
-                {" "}
-                <FiMoreHorizontal />{" "}
+                <FiMoreHorizontal />
               </Button>
             </div>
             <Card.Body>
-              <img src="assets/images/first.jpg" height="200" width="225" />
+              <img className="main-img" src="assets/images/front.jpg"  />
+              <h4>Black Box</h4>
+              <p className="card-p1"> From 3.4 ETH 15/90 </p>
+              <div className="btn-para">
+                <p className="card-p2">Bid 2 wETH</p>
+                <Button className="btn-heart" variant="light">
+                  <BiHeart />
+                </Button>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col>
+          <Card
+            className="card-main"
+            style={{ width: "16rem", height: "27rem" }}
+          >
+            <div className="dotted-bar">
+
+              <span className="something">
+              <img className="circle-img" src="assets/images/front.jpg" />
+                <span class="tooltiptext">Collection: Loot</span>
+                </span>
+              
+              <span className="something">
+                <img className="circle-img11" src="assets/images/second.jpg" />
+                <span class="tooltiptext">Creator: Lucere</span>
+                </span>
+              <Button className="btn2-dotted" variant="light">
+                <FiMoreHorizontal />
+              </Button>
+            </div>
+            <Card.Body>
+              <img className="main-img" src="assets/images/first.jpg"  />
               <h4>Lucky Watcher</h4>
               <p className="card-p1"> From 3.4 ETH 15/90 </p>
               <div className="btn-para">
                 <p className="card-p2">Bid 2 wETH</p>
                 <Button className="btn-heart" variant="light">
-                  {" "}
-                  <BiHeart />{" "}
-                </Button>{" "}
+                  <BiHeart />
+                </Button>
               </div>
             </Card.Body>
           </Card>
@@ -44,57 +84,33 @@ export const HotBidComponent = () => {
             style={{ width: "16rem", height: "27rem" }}
           >
             <div className="dotted-bar">
+
+              <span className="something">
               <img className="circle-img" src="assets/images/second.jpg" />
-              <img className="circle-img1" src="assets/images/fifth.jpg" />
-
+                <span class="tooltiptext">Collection: Loot</span>
+                </span>
+              
+              <span className="something">
+                <img className="circle-img11" src="assets/images/first.jpg" />
+                <span class="tooltiptext">Creator: Lucere</span>
+                </span>
               <Button className="btn2-dotted" variant="light">
-                {" "}
-                <FiMoreHorizontal />{" "}
+                <FiMoreHorizontal />
               </Button>
             </div>
             <Card.Body>
-              <img src="assets/images/front.jpg" height="200" width="225" />
-              <h4>The Hunter</h4>
+              <img className="main-img" src="assets/images/fifth.jpg"  />
+              <h4>Bad Dreams</h4>
               <p className="card-p1"> From 3.4 ETH 15/90 </p>
               <div className="btn-para">
                 <p className="card-p2">Bid 2 wETH</p>
                 <Button className="btn-heart" variant="light">
-                  {" "}
-                  <BiHeart />{" "}
-                </Button>{" "}
+                  <BiHeart />
+                </Button>
               </div>
             </Card.Body>
           </Card>
         </Col>
-
-        <Col>
-          <Card
-            className="card-main"
-            style={{ width: "16rem", height: "27rem" }}
-          >
-            <div className="dotted-bar">
-              <img className="circle-img" src="assets/images/first.jpg" />
-              <img className="circle-img1" src="assets/images/front.jpg" />
-
-              <Button className="btn2-dotted" variant="light">
-                {" "}
-                <FiMoreHorizontal />{" "}
-              </Button>
-            </div>
-            <Card.Body>
-              <img src="assets/images/fifth.jpg" height="200" width="225" />
-              <h4>Night Watch</h4>
-              <p className="card-p1"> From 3.4 ETH 15/90 </p>
-              <div className="btn-para">
-                <p className="card-p2">Bid 2 wETH</p>
-                <Button className="btn-heart" variant="light">
-                  {" "}
-                  <BiHeart />{" "}
-                </Button>{" "}
-              </div>
-            </Card.Body>
-          </Card>
-        </Col> */}
 
         <Col>
           <Card
@@ -117,8 +133,8 @@ export const HotBidComponent = () => {
               </Button>
             </div>
             <Card.Body>
-              <img className="main-img" src="assets/images/second.jpg"  />
-              <h4>Black Box</h4>
+              <img className="main-img" src="assets/images/third.jpg"  />
+              <h4>The Dragons</h4>
               <p className="card-p1"> From 3.4 ETH 15/90 </p>
               <div className="btn-para">
                 <p className="card-p2">Bid 2 wETH</p>
@@ -129,6 +145,7 @@ export const HotBidComponent = () => {
             </Card.Body>
           </Card>
         </Col>
+
       </Row>
     </div>
   );

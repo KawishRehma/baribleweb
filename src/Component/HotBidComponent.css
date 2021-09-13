@@ -52,7 +52,7 @@
   margin-left: 110px;
   border-radius: 25px;
   margin-top: 0px;
-    position: absolute;
+  position: absolute;
 }
  .dotted-bar .circle-img {
   border-radius: 30px;
@@ -63,7 +63,7 @@
 }
  .circle-img11 {
   border-radius: 30px;
-  margin-left: -12px;
+  margin-left: -8px;
   width: 40px;
   transition: 0.3s;
   height: 40px;
@@ -75,12 +75,12 @@
 }
 
 .circle-img:hover {
-    transform: translate(0, -10px);
+    transform: translate(0, -7px);
     position: relative;    
 }
 .circle-img11:hover {
     
-    transform: translate(0, -10px);
+    transform: translate(0, -7px);
     position: relative;    
 }
 
@@ -91,9 +91,10 @@
 .something .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: whitesmoke;
+  color: rgb(8, 5, 5);
   text-align: center;
+  font-weight: bold;
   border-radius: 6px;
   padding: 5px 0;
   
