@@ -10,7 +10,7 @@ import { SellerComponent } from "./SellerComponent";
 export const ExploreComponent = () => {
   return (
     <Fragment>
-      <Container>
+      <Container className="main-explorer" fluid>
         <Row>
           <Col >
             <div className ="e-main-image">
@@ -28,7 +28,7 @@ export const ExploreComponent = () => {
               <h5>G'EVOLs </h5>
             <img
               src="assets/images/front.jpg"
-              width="200"
+              width="235"
               height="240"
               rounded
             />
@@ -36,7 +36,7 @@ export const ExploreComponent = () => {
             <h5> The Drops </h5>
             <img 
               src="assets/images/third.jpg"
-              width="200"
+              width="235"
               height="240"  
             /> 
             </div>
@@ -48,7 +48,7 @@ export const ExploreComponent = () => {
             <h5>Monsters</h5>
             <img
               src="assets/images/second.jpg"
-              width="200"
+              width="235"
               height="240"
               rounded
             />
@@ -56,7 +56,7 @@ export const ExploreComponent = () => {
               <h5>FOMO's</h5>
             <img 
               src="assets/images/front.jpg"
-              width="200"
+              width="235"
               height="240"
             />
             </div>
@@ -68,7 +68,7 @@ export const ExploreComponent = () => {
             <h5> Turtle's </h5>
             <img
               src="assets/images/fifth.jpg"
-              width="200"
+              width="235"
               height="240"
               rounded
             />
@@ -76,7 +76,7 @@ export const ExploreComponent = () => {
               <h5> JazzXR </h5>
             <img 
               src="assets/images/first.jpg"
-              width="200"
+              width="235"
               height="240"      
             />
               </div>
