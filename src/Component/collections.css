@@ -1,5 +1,8 @@
 
-.row-1 img{
+.collection-row{
+    margin-left: -70px;
+}
+.collection-row img{
     border-radius: 50px;
 }
 
@@ -29,10 +32,8 @@
 }
 
 .p-let{
-    margin-left: 0px;
-    
+    margin-left: 0px;  
 }
-
 .one{
     display: flex;
 }
@@ -117,12 +118,12 @@
 }
 
 .chart-one{
-   margin-left: 50px;
+    margin-left: 80px;
    margin-top: 30px;
 }
 
 .chart-two{
-    margin-left: 50px;
+    margin-left: 80px;
    margin-top: 30px;
 }
 

@@ -6,6 +6,7 @@ import { HotBidComponent } from "./HotBidComponent";
 import {TopSeller} from "./TopSeller" ;
 import "../Component/ExploreComponent.css";
 import { SellerComponent } from "./SellerComponent";
+import Images from "./ImagesCompoent";
 
 export const ExploreComponent = () => {
   return (
@@ -16,9 +17,9 @@ export const ExploreComponent = () => {
             <div className ="e-main-image">
             <h2> The Watcher </h2>
             <img
-              src="assets/images/first.jpg"
-              width="500"
-              height="500"  
+              src={Images.First}
+              width="550"
+              height="570"  
             />
             </div>
           </Col>
@@ -27,17 +28,17 @@ export const ExploreComponent = () => {
             <div className="e-one">
               <h5>G'EVOLs </h5>
             <img
-              src="assets/images/front.jpg"
-              width="235"
-              height="240"
+              src={Images.Front}
+              width="260"
+              height="267"
               rounded
             />
             <div className="e-one-inner">
             <h5> The Drops </h5>
             <img 
-              src="assets/images/third.jpg"
-              width="235"
-              height="240"  
+              src={Images.Second}
+              width="260"
+              height="267"  
             /> 
             </div>
             </div>
@@ -47,17 +48,17 @@ export const ExploreComponent = () => {
           <div className="e-two">
             <h5>Monsters</h5>
             <img
-              src="assets/images/second.jpg"
-              width="235"
-              height="240"
+              src={Images.Fifth}
+              width="260"
+              height="267"
               rounded
             />
             <div className="e-two-inner">
               <h5>FOMO's</h5>
             <img 
-              src="assets/images/front.jpg"
-              width="235"
-              height="240"
+              src={Images.Front}
+              width="260"
+              height="267"
             />
             </div>
             </div>
@@ -67,17 +68,17 @@ export const ExploreComponent = () => {
           <div className="e-three">
             <h5> Turtle's </h5>
             <img
-              src="assets/images/fifth.jpg"
-              width="235"
-              height="240"
+              src={Images.Third}
+              width="260"
+              height="267"
               rounded
             />
             <div className="e-three-inner">
               <h5> JazzXR </h5>
             <img 
-              src="assets/images/first.jpg"
-              width="235"
-              height="240"      
+              src={Images.First}
+              width="260"
+              height="267"      
             />
               </div>
             </div>

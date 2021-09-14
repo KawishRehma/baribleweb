@@ -1,31 +1,37 @@
 .nav-logo{
     margin-left:40px;
 }
+.mr-2{
+    border-radius: 50px;
+    width: 450px;
+    height: 40px;
+}
+
 .nav-expl{
-    margin-left: 17px;
+    margin-left: 20px;
 }
 .nav-myitem{
-    margin-left: 17px;
+    margin-left:  20px;
 }
 .nav-foll{
-    margin-left: 17px;
+    margin-left:  20px;
 }
 .nav-act{
-    margin-left: 17px;
+    margin-left:  20px;
 }
 .nav-line{
-    margin-left: 17px;
+    margin-left:  20px;
 }
 .nav-howit{
-    margin-left: 17px;
+    margin-left:  20px;
 }
 .nav-community{
-    margin-left: 17px;
+    margin-left:  20px;
 }
 .btn-connect{
-    margin-left: 17px;
+    margin-left:  20px;
     margin-right: 50px;
 }
 .btn-create{
-    margin-left: 17px;
+    margin-left:  20px;
 }

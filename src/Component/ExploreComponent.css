@@ -1,12 +1,12 @@
 
 .main-explorer{
-    margin-left: 70px;
+    margin-left: 80px;
     margin-top: 20px;
 }
 
 .e-main-image{
    
-    margin-left: -40px;
+    margin-left: 0px;
 }
 .e-main-image h2{
     color: white;
@@ -23,7 +23,7 @@
 }
 .e-one{
     
-    margin-left: 0px;
+    margin-left: 20px;
 }
 .e-one h5{
     color: white;
@@ -36,7 +36,7 @@
     border-radius: 20px;
 }
 .e-one-inner{
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .e-one-inner h5{
     color: whitesmoke;
@@ -61,7 +61,7 @@
     font-weight: bold;
 }
 .e-two-inner{
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .e-two-inner h5{
     color: whitesmoke;
@@ -72,7 +72,7 @@
 }
 .e-three{
 
-    margin-left: -60px;
+    margin-left: -75px;
 }
 .e-three h5{
     color: whitesmoke;
@@ -85,7 +85,7 @@
     border-radius: 20px;
 }
 .e-three-inner{
-    margin-top: 20px;
+    margin-top: 35px;
     margin-left: 3px;
 }
 

@@ -1,22 +1,23 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../Component/collections.css"
+import Images from "./ImagesCompoent";
 
 export const CollectionComponent = () => {
   return (
     <div>
       <Container>
-        <Row className="row-1 mb-3">
+        <Row className="collection-row">
           <Col className="cl">
             <div className="one"> 
             <p className="p-no">1.</p>
             <img
-              src= "assets/images/first.jpg"
+              src= {Images.First}
               width="45"
               height="45"
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"
             />
@@ -26,12 +27,12 @@ export const CollectionComponent = () => {
             <div className="one">   
             <p className="p-no"> 2.</p>
             <img
-              src= "assets/images/front.jpg"
+              src= {Images.Front}
               width="45"
               height="45"  
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"
             />
@@ -41,12 +42,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 3.</p>
             <img
-              src= "assets/images/second.jpg"
+              src= {Images.Second}
               width="45"
               height="45"  
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src={Images.icon}
               width="20"
               height="20"  
             />
@@ -59,12 +60,12 @@ export const CollectionComponent = () => {
           <div className="one"> 
             <p className="p-no"> 4.</p>
             <img
-              src= "assets/images/third.jpg"
+              src= {Images.Third}
               width="45"
               height="45" 
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20" 
             />
@@ -74,12 +75,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 5.</p>
             <img
-              src= "assets/images/fifth.jpg"
+              src= {Images.Fifth}
               width="45"
               height="45"
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"  
             />
@@ -89,12 +90,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 6.</p>
             <img
-              src= "assets/images/fourth.jpg"
+              src= {Images.Fourth}
               width="45"
               height="45"
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"
             />
@@ -107,12 +108,12 @@ export const CollectionComponent = () => {
           <div className="one"> 
             <p className="p-no"> 7.</p>
             <img
-              src= "assets/images/third.jpg"
+              src= {Images.Third}
               width="45"
               height="45" 
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20" 
             />
@@ -122,12 +123,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 8.</p>
             <img
-              src= "assets/images/first.jpg"
+              src= {Images.First}
               width="45"
               height="45" 
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20" 
             />
@@ -137,12 +138,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 9.</p>
             <img
-              src= "assets/images/second.jpg"
+              src= {Images.Second}
               width="45"
               height="45"
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20" 
             />
@@ -155,12 +156,12 @@ export const CollectionComponent = () => {
           <div className="one"> 
             <p className="p-no"> 10.</p>
             <img
-              src= "assets/images/front.jpg"
+              src= {Images.Front}
               width="45"
               height="45" 
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"
             />
@@ -170,12 +171,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 11.</p>
             <img
-              src= "assets/images/first.jpg"
+              src= {Images.First}
               width="45"
               height="45"
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"
             />
@@ -185,12 +186,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 12.</p>
             <img
-              src= "assets/images/fifth.jpg"
+              src= {Images.Fifth}
               width="45"
               height="45"
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"
             />
@@ -203,12 +204,12 @@ export const CollectionComponent = () => {
           <div className="one"> 
             <p className="p-no"> 13.</p>
             <img
-              src= "assets/images/fifth.jpg"
+              src= {Images.Third}
               width="45"
               height="45" 
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20" 
             />
@@ -218,12 +219,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 14.</p>
             <img
-              src= "assets/images/first.jpg"
+              src= {Images.First}
               width="45"
               height="45"
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"  
             />
@@ -233,12 +234,12 @@ export const CollectionComponent = () => {
             <div className="one"> 
             <p className="p-no"> 15.</p>
             <img
-              src= "assets/images/front.jpg"
+              src= {Images.Front}
               width="45"
               height="45"
             />
             <img className="icon-one"
-              src= "assets/images/icon.png"
+              src= {Images.icon}
               width="20"
               height="20"
             />
@@ -246,6 +247,7 @@ export const CollectionComponent = () => {
             <p className="p-let-no15"> $15,000 </p>
             </div>
           </Col>
+ 
         </Row>
 
       </Container>

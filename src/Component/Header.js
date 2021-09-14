@@ -8,6 +8,7 @@ import {
   Button,
 } from "react-bootstrap";
 import "../Component/Header.css";
+import Images from "./ImagesCompoent";
 
 export const Header = () => {
   return (
@@ -15,7 +16,7 @@ export const Header = () => {
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#" className="nav-logo">
           <img
-            src="assets/images/logo.png"
+            src={Images.Logo}
             height="40"
             width="48"
             alt="Barible"
@@ -30,7 +31,7 @@ export const Header = () => {
             navbarScroll
           >
             <Form className="d-flex">
-              <FormControl
+              <FormControl 
                 type="search"
                 placeholder="Creator, item or collection"
                 className="mr-2"
