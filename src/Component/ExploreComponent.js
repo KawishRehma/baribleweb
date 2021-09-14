@@ -13,72 +13,70 @@ export const ExploreComponent = () => {
     <Fragment>
       <Container className="main-explorer" fluid>
         <Row>
-          <Col >
+          <Col xs={6} md={4}>
             <div className ="e-main-image">
             <h2> The Watcher </h2>
             <img
-              src={Images.First}
-              width="550"
-              height="570"  
+              src={Images.First}  
             />
             </div>
           </Col>
 
-          <Col >
+          <Col xs={6} md={4}>
             <div className="e-one">
               <h5>G'EVOLs </h5>
             <img
               src={Images.Front}
-              width="260"
-              height="267"
+              width="230"
+              height="240"
               rounded
             />
             <div className="e-one-inner">
             <h5> The Drops </h5>
             <img 
               src={Images.Second}
-              width="260"
-              height="267"  
+              width="230"
+              height="240"  
             /> 
             </div>
             </div>
           </Col>
 
-          <Col >
+          <Col xs={6} md={4}>
           <div className="e-two">
             <h5>Monsters</h5>
             <img
               src={Images.Fifth}
-              width="260"
-              height="267"
+              width="230"
+              height="240"
               rounded
             />
             <div className="e-two-inner">
               <h5>FOMO's</h5>
             <img 
               src={Images.Front}
-              width="260"
-              height="267"
+              width="230"
+              height="240"
             />
             </div>
             </div>
           </Col>
 
-          <Col >
+          <Col xs={6} md={4}>
           <div className="e-three">
             <h5> Turtle's </h5>
             <img
               src={Images.Third}
-              width="260"
-              height="267"
+              width="230"
+              height="240"
               rounded
             />
             <div className="e-three-inner">
               <h5> JazzXR </h5>
             <img 
               src={Images.First}
-              width="260"
-              height="267"      
+              width="230"
+              height="240"      
             />
               </div>
             </div>

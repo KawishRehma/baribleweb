@@ -1,6 +1,8 @@
 
 .main-explorer{
-    margin-left: 80px;
+    width: 95%;
+    align-content: center;
+    margin-left: 65px;
     margin-top: 20px;
 }
 
@@ -20,10 +22,12 @@
 .e-main-image img{
     
     border-radius: 25px;
+    width: 550px;
+    height: 550px;
 }
 .e-one{
     
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .e-one h5{
     color: white;
