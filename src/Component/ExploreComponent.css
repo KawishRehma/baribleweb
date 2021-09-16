@@ -1,8 +1,7 @@
 
 .main-explorer{
-    width: 95%;
-    align-content: center;
-    margin-left: 65px;
+   
+    margin-left: 90px;
     margin-top: 20px;
 }
 
@@ -22,12 +21,14 @@
 .e-main-image img{
     
     border-radius: 25px;
-    width: 550px;
+    width: 530px;
     height: 550px;
 }
 .e-one{
     
-    margin-left: 10px;
+    margin-left: 20px;
+   
+  
 }
 .e-one h5{
     color: white;
@@ -41,6 +42,7 @@
 }
 .e-one-inner{
     margin-top: 35px;
+    
 }
 .e-one-inner h5{
     color: whitesmoke;
@@ -52,7 +54,8 @@
 
 .e-two{
     
-    margin-left: -30px;
+    margin-left: 5px;
+    
 }
 .e-two img{
     border-radius: 20px;
@@ -66,6 +69,7 @@
 }
 .e-two-inner{
     margin-top: 35px;
+    
 }
 .e-two-inner h5{
     color: whitesmoke;
@@ -76,7 +80,8 @@
 }
 .e-three{
 
-    margin-left: -75px;
+    margin-left: 5px;
+   
 }
 .e-three h5{
     color: whitesmoke;
@@ -91,5 +96,98 @@
 .e-three-inner{
     margin-top: 35px;
     margin-left: 3px;
+   
 }
+@media only screen and (min-width: 375px) and (max-width: 750px) {
 
+    .main-explorer{
+   
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .e-main-image h2{
+        color: white;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 27px;
+    
+    }
+    .e-main-image img{
+        
+        border-radius: 25px;
+        width: 300px;
+        height: 270px;
+    }
+    .e-one{
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    }
+    .e-one h5{
+        color: white;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .e-one img{
+        border-radius: 20px;
+    }
+    .e-one-inner{
+        margin-top: 20px;
+    }
+    .e-one-inner h5{
+        color: whitesmoke;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    
+    .e-two{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .e-two img{
+        border-radius: 20px;
+    }
+    .e-two h5{
+        color: whitesmoke;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .e-two-inner{
+        margin-top: 20px;
+    }
+    .e-two-inner h5{
+        color: whitesmoke;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .e-three{
+    
+        margin-left: 20px;
+        margin-top: 20px;   
+    }
+    .e-three h5{
+        color: whitesmoke;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .e-three img{
+        border-radius: 20px;
+    }
+    .e-three-inner{
+        margin-top: 35px;
+        margin-left: 3px;
+    }
+}
