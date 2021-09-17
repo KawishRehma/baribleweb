@@ -32,8 +32,8 @@ export const DISPLAYS =
       },
       {
         id: 5,
-        name: "JazzXR NFT",
-        image: "assets/images/front.jpg",
+        name: "#Boiz",
+        image: "assets/images/fifth.jpg",
         
       },
       {
@@ -41,7 +41,13 @@ export const DISPLAYS =
         name: "The Night Watcher",
         image: "assets/images/first.jpg",
         
-      }
+      },
+      {
+        id: 7,
+        name: "Coke Boys",
+        image: "assets/images/front.jpg",
+        
+      },
   ];
         
  

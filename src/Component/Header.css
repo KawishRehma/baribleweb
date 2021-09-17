@@ -1,12 +1,9 @@
 .nav-logo{
     margin-left:40px;
 }
-.mr-2{
+.search-bar{
     border-radius: 50px;
-    width: 450px;
-    height: 40px;
 }
-
 .nav-expl{
     margin-left: 20px;
 }
@@ -35,4 +32,62 @@
 .btn-create{
     margin-left:  20px;
 }
+@media screen and (min-width: 992) and (max-width: 1379) {
+    .nav-logo{
+        margin-left:20px;
+    }
+    .search-bar {
+        visibility: hidden;
+    }
+    .nav-expl{
+        margin-left: 0px;
+    }
+    .nav-myitem{
+        margin-left:  0px;
+    }
+    .nav-foll{
+        margin-left:  0px;
+    }
+    .nav-act{
+        margin-left:  0px;
+    }
+    .nav-line{
+        margin-left:  0px;
+    }
+    .nav-howit{
+        margin-left:  0px;
+    }
+    .nav-community{
+        margin-left:  0px;
+    }
+    .btn-connect{
+        
+        margin-right: 20px;
+    }
+    .btn-create{
+        margin-left:  0px;
+    }
+}
+@media screen and (min-width: 768) and (max-width: 991) {
 
+    .nav-logo{
+        margin-left:20px;
+    }
+    .search-bar {
+        display: none;
+    }
+    .nav-community{
+        margin-right:  20px;
+    }
+    .btn-connect{
+        
+        width: 80px;
+        margin-bottom: 100px;
+    }
+    .btn-create{
+        margin-left:  0px;
+        display: inline-flex;
+    }
+    
+    
+}

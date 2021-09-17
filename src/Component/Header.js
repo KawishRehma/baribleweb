@@ -15,12 +15,7 @@ export const Header = () => {
     <div className="main-nav">
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#" className="nav-logo">
-          <img
-            src={Images.Logo}
-            height="40"
-            width="48"
-            alt="Barible"
-          />
+          <img src={Images.Logo} height="40" width="48" alt="Barible" />
           <b>Barible </b>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -31,19 +26,19 @@ export const Header = () => {
             navbarScroll
           >
             <Form className="d-flex">
-              <FormControl 
+              <FormControl
                 type="search"
                 placeholder="Creator, item or collection"
-                className="mr-2"
+                className="search-bar"
                 aria-label="Search"
               />
             </Form>
-            <Nav.Link href="/" className="nav-expl">
+           
               
+            <Nav.Link href="/" className="nav-expl">
               <b>Explore </b>
             </Nav.Link>
             <Nav.Link href="/myitem" className="nav-myitem">
-              
               <b>My items </b>
             </Nav.Link>
             <Nav.Link href="/following" className="nav-foll">
@@ -70,6 +65,7 @@ export const Header = () => {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
+
             <Button variant="warning" className="btn-create">
               Create
             </Button>
