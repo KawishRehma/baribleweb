@@ -13,11 +13,11 @@ class Collection extends Component {
   }
   render() {
     const collect = this.state.collect.map((detail) => {
-      if (detail.id < 4) {
-        return (
-          <Col className="cl1">
-            <div key={detail.id} className="detail-main">
-              <b > {detail.number}</b>
+      return (
+        <Col  xs={6} md={4} lg={3} xl={2} >
+          <div key={detail.id} className="detail-main">
+            <div  className="detail-main" >
+              <b> {detail.number}</b>
               <img
                 className="detail-img"
                 src={detail.image}
@@ -30,15 +30,14 @@ class Collection extends Component {
               />
               <p className="detail-let">{detail.name}</p>
             </div>
-          </Col>
-        );
-      }
-     
+          </div>
+        </Col>
+      );
     });
 
     return (
       <Container>
-        <Row>{collect}</Row>
+        <Row> {collect} </Row>
       </Container>
     );
   }
