@@ -44,8 +44,7 @@
 .dotted-bar {
   margin-top: 20px;
   margin-bottom: 43px;
-  
- 
+
 }
 
 .dotted-bar .btn2-dotted {
@@ -76,10 +75,11 @@
 
 .circle-img:hover {
     transform: translate(0, -7px);
-    position: relative;    
+    position: relative; 
+      
 }
 .circle-img11:hover {
-    
+ 
     transform: translate(0, -7px);
     position: relative;    
 }

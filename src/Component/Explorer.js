@@ -3,7 +3,9 @@ import { DISPLAYS } from "../Shared/displays";
 import "../Component/Explorer.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { ChartComponent } from "./ChartComponent";
+import Hotbid from "./Hotbid"
 import Collection from "./Collection";
+import { TopSeller } from "./TopSeller";
 
 
 
@@ -44,6 +46,8 @@ class Explorer extends Component {
         </Container>
         <ChartComponent />
         <Collection />
+        <Hotbid />
+        <TopSeller />
       </Fragment>
     );
   }

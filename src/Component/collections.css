@@ -119,18 +119,12 @@
 
 
 
-.chart-two{
-    margin-left: 80px;
-   margin-top: 30px;
-}
+
 
 @media only screen and (min-width: 375px) and (max-width: 750px){
     
     
-    .chart-two{
-        margin-left: 10px;
-       margin-top: 30px;
-    }
+    
     
     .collection-row{
         margin-left: -15px;

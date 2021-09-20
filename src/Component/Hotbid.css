@@ -1,0 +1,79 @@
+
+.chart-two{
+    margin-left: -10px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   font-size: 32px;
+   font-weight: bold;
+}
+.cardmain11{
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 18rem;
+  height: 26.5rem;
+}
+
+.cardhead11{
+    margin-top: 30px;
+}
+.card-main-img11{
+    
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.cardhear-img1{
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-left: 15px;
+}
+.cardhear-img2{
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    transition: 0.3s;
+    margin-left: -10px;
+}
+.cardhear-btn{
+    margin-left: 140px;
+    border-radius: 20px;
+}
+.card-parag{
+    display: flex;
+    margin-top: -30px;
+    margin-left: 18px;
+}
+.card-p11{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cardmain11 .card-btnp{
+    border-radius: 15px;
+    margin-left: 120px;
+    margin-bottom: 25px;
+    
+}
+.card-p33{
+    color: rgb(46, 161, 255);
+  font-weight: bold;
+}
+
+.cardhear-img1 :hover {
+    transform: translate(0, -7px);
+    position: relative;
+   
+}
+
+.cardhear-img2 :hover {
+    transform: translate(0, -7px);
+    position: relative;
+    
+}
+.something11{
+    position: relative;
+}
