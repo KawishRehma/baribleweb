@@ -1,0 +1,31 @@
+
+.chart-one{
+    margin-left: -10px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   font-size: xx-large;
+   font-weight: bold;
+}
+
+.detail-main{
+    display: flex;
+}
+
+.detail-img{
+    border-radius: 40px;
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    margin-top: -12px;
+}
+.detail-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: -14px;
+    margin-top: 16px;
+}
+.detail-let{
+   
+    margin-left: 8px;
+}

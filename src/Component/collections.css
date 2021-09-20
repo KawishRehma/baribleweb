@@ -117,10 +117,7 @@
     margin-left: -46px;
 }
 
-.chart-one{
-    margin-left: 80px;
-   margin-top: 30px;
-}
+
 
 .chart-two{
     margin-left: 80px;
@@ -129,10 +126,7 @@
 
 @media only screen and (min-width: 375px) and (max-width: 750px){
     
-    .chart-one{
-        margin-left: 10px;
-       margin-top: 30px;
-    }
+    
     .chart-two{
         margin-left: 10px;
        margin-top: 30px;
@@ -144,7 +138,7 @@
     .collection-row img{
         border-radius: 50px;
     }
-    
+ 
     .p-no{
         margin-left: 0px;
         padding: 0px;
