@@ -6,6 +6,11 @@ import { ChartComponent } from "./ChartComponent";
 import Hotbid from "./Hotbid"
 import Collection from "./Collection";
 import { TopSeller } from "./TopSeller";
+import Liveauction from "./Liveauction";
+import Hotcollection from "./Hotcollection";
+import ExploreComponent from "./ExploreComponent";
+
+
 
 
 
@@ -48,6 +53,11 @@ class Explorer extends Component {
         <Collection />
         <Hotbid />
         <TopSeller />
+        <Collection />
+        <Liveauction />
+        <Hotcollection />
+        
+        <ExploreComponent />
       </Fragment>
     );
   }

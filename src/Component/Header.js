@@ -8,14 +8,14 @@ import {
   Button,
 } from "react-bootstrap";
 import "../Component/Header.css";
-import Images from "./ImagesCompoent";
+
 
 export const Header = () => {
   return (
     <div className="main-nav">
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#" className="nav-logo">
-          <img src={Images.Logo} height="40" width="48" alt="Barible" />
+          <img src="assets/images/logo.png" height="40" width="48" alt="Barible" />
           <b>Barible </b>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

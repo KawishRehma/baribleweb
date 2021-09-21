@@ -7,6 +7,14 @@
    font-weight: bold;
 }
 
+.chart-two{
+    margin-left: -10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
 .detail-main{
     display: flex;
     margin-bottom: 10px;
@@ -43,11 +51,25 @@
        font-size: 32px;
        font-weight: bold;
     }
+    .chart-two{
+        margin-left: -10px;
+       margin-top: 30px;
+       margin-bottom: 20px;
+       font-size: 32px;
+       font-weight: bold;
+    }
 
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
     .chart-one{
+        margin-left: -10px;
+       margin-top: 30px;
+       margin-bottom: 20px;
+       font-size: 32px;
+       font-weight: bold;
+    }
+    .chart-two{
         margin-left: -10px;
        margin-top: 30px;
        margin-bottom: 20px;
@@ -66,11 +88,25 @@
        font-size: 26px;
        font-weight: bold;
     }
+    .chart-two{
+        margin-left: -10px;
+       margin-top: 30px;
+       margin-bottom: 20px;
+       font-size: 26px;
+       font-weight: bold;
+    }
 
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
     .chart-one{
+        margin-left: -10px;
+       margin-top: 30px;
+       margin-bottom: 20px;
+       font-size: 22px;
+       font-weight: bold;
+    }
+    .chart{
         margin-left: -10px;
        margin-top: 30px;
        margin-bottom: 20px;

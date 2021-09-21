@@ -1,0 +1,54 @@
+
+.collect-main{
+    width: 17rem;
+    height: 14rem;
+    border-radius: 20px;
+}
+
+.collect-name{
+    margin-top: 30px;
+   margin-bottom: 20px;
+   font-size: 32px;
+   font-weight: bold;
+   
+}
+.collect-img1{
+    
+    margin: 0 auto;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-top: 7px;
+}
+.collect-img2{
+
+    margin: 0 auto;
+    width: 66px;
+    height: 66px;
+    border-radius: 40px;
+    margin-top: -40px;
+    margin-left: 100px;
+
+}
+.collect-p1{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 8px;
+    font-size: 17px;
+}
+.collect-p2{
+    font-size: medium;
+    text-align: center;
+    margin-top: -13px;
+    color: grey;
+    font-weight: 700;
+    font-size: 14px;
+}
+.collect-icon{
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: -17px;
+}
