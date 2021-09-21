@@ -1,7 +1,7 @@
 export const HOTBIDDATA = [
     {
       id: 0,
-      name: "Black Box",
+      name: "Lucky Watcher",
       description: "From 3.4 ETH 15/90",
       data: "Bid 2 wETH",
       image: "assets/images/first.jpg",
@@ -11,7 +11,7 @@ export const HOTBIDDATA = [
     },
     {
         id: 1,
-        name: "Black Box",
+        name: "Hopper",
         description: "From 3.4 ETH 15/90",
         data: "Bid 2 wETH",
         image: "assets/images/front.jpg",
@@ -21,7 +21,7 @@ export const HOTBIDDATA = [
       },
       {
         id: 2,
-        name: "Black Box",
+        name: "The Monster",
         description: "From 3.4 ETH 15/90",
         data: "Bid 2 wETH",
         image: "assets/images/fifth.jpg",
@@ -31,7 +31,7 @@ export const HOTBIDDATA = [
       },
       {
         id: 3,
-        name: "Black Box",
+        name: "The Drops",
         description: "From 3.4 ETH 15/90",
         data: "Bid 2 wETH",
         image: "assets/images/second.jpg",
