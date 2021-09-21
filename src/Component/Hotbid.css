@@ -25,19 +25,20 @@
     margin-top: 10px;
     margin-bottom: 12px;
 }
-.cardhear-img1{
-    width: 40px;
-    height:40px;
-    border-radius: 20px;
-    transition: 0.3s;
-    margin-left: 15px;
+.cardhead11 .cardhear-img1{
+    border-radius: 30px;
+  margin-left: 18px;
+  height: 40px;
+  transition: 0.3s;
+  width: 40px;
 }
-.cardhear-img2{
+.cardhead11 .cardhear-img2{
+    border-radius: 30px;
+    margin-left: -8px;
     width: 40px;
-    height:40px;
-    border-radius: 20px;
     transition: 0.3s;
-    margin-left: -10px;
+    height: 40px;
+    
 }
 .cardhear-btn{
     margin-left: 140px;
@@ -63,13 +64,13 @@
   font-weight: bold;
 }
 
-.cardhear-img1 :hover {
+.cardhear-img1:hover {
     transform: translate(0, -7px);
     position: relative;
    
 }
 
-.cardhear-img2 :hover {
+.cardhear-img2:hover {
     transform: translate(0, -7px);
     position: relative;
     
@@ -77,3 +78,26 @@
 .something11{
     position: relative;
 }
+
+.something11 .tooltext11{
+
+    visibility: hidden;
+    width: 140px;
+    background-color:honeydew ;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the something11 */
+  position: absolute;
+  z-index: 1;
+
+  left: 0;
+    top: -55px;
+    margin-left: -30px;
+}
+.something11:hover .tooltext11 {
+    visibility: visible;
+  }
