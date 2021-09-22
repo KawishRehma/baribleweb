@@ -11,6 +11,7 @@ export const DISPLAYS =
       name: "The Drops",
       image: "assets/images/front.jpg",
       
+      
     },
     {
       id: 2,

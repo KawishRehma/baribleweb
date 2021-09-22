@@ -16,7 +16,7 @@ export const Header = () => {
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#" className="nav-logo">
           <img src="assets/images/logo.png" height="40" width="48" alt="Barible" />
-          <b>Barible </b>
+          <b className="icon-name">Barible </b>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -65,10 +65,8 @@ export const Header = () => {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-
-            <Button variant="warning" className="btn-create">
-              Create
-            </Button>
+            <a class="gradient-button gradient-button"> Create</a>
+            
             <Button variant="outline-secondary" className="btn-connect">
               Connect wallet
             </Button>

@@ -11,9 +11,6 @@ import Hotcollection from "./Hotcollection";
 import ExploreComponent from "./ExploreComponent";
 
 
-
-
-
 class Explorer extends Component {
   constructor(props) {
     super(props);

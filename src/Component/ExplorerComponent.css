@@ -7,3 +7,65 @@
    font-size: 32px;
    font-weight: bold;
 }
+.expo-function{
+  display: flex;
+  
+}
+
+
+.expo-dpmain{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.expo-dp1{
+  margin-right: 25px;
+}
+
+.expo-dpbtn{
+ 
+  border-radius: 20px;
+  outline-width: thin;
+  outline-color: rgb(139, 139, 139);
+  outline-offset: 2px;
+  outline-style: solid;
+  
+}
+
+.category-maindata{
+
+  margin-left: 15px;
+  margin-top: 20px; 
+}
+
+.category-img{
+
+  width: 290px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.category-img1{
+  width: 290px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.category-img2{
+  width: 290px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.category-img3{
+  width: 290px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+  
