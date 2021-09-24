@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaGooglePlusG, FaInstagram, FaTwitterSquare, FaYoutube, FaLinkedin, FaPinterest } from "react-icons/fa";
 import {
   Navbar,
   Nav,
@@ -13,7 +14,62 @@ import "../Component/Header.css";
 export const Header = () => {
   return (
     <div className="main-nav">
-      <Navbar bg="light" expand="lg">
+
+<Navbar bg="light" expand="lg" className="navbar-main11">
+  <Navbar.Brand href="#" className="nav-logo"><img src="assets/images/logo.png" height="40" width="48" alt="Barible" />
+          <b className="icon-name">Barible </b></Navbar.Brand>
+  <Navbar.Toggle aria-controls="navbarScroll" />
+  <Navbar.Collapse id="navbarScroll">
+    <Nav
+      className="mr-auto my-2 my-lg-0"
+      style={{ maxHeight: '100px' }}
+      navbarScroll
+    >
+      <Form className="d-flex">
+      <FormControl
+        type="search"
+       
+        placeholder=  "collection, item or user"
+        className="mr-2"
+        aria-label="Search"
+      />
+      
+    </Form>
+      <Nav.Link href="#action1"> <b>Explore </b> </Nav.Link>
+      <Nav.Link href="#action1"> <b>My items </b> </Nav.Link>
+      <Nav.Link href="#action1"> <b>Following </b> </Nav.Link>
+      <Nav.Link href="#action1"> <b>Activity </b> </Nav.Link>
+      <Nav.Link href="#action1"> <b>How it Works </b> </Nav.Link>
+      
+      <NavDropdown title="Community" id="navbarScrollingDropdown">
+        <NavDropdown.Item href="#action3">Rari Token</NavDropdown.Item>
+        <NavDropdown.Item href="#action4">Discussion</NavDropdown.Item>
+        <NavDropdown.Item href="#action4">Voting</NavDropdown.Item>
+        <NavDropdown.Item href="#action4">Suggest Feature</NavDropdown.Item>
+        <NavDropdown.Item href="#action4">Barible Protocol</NavDropdown.Item>
+        <NavDropdown.Item href="#action4">Subscribe</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action5" className="fonts-main">  <FaGooglePlusG/> <FaFacebook />  <FaInstagram /> <FaTwitterSquare /> <FaYoutube /> <FaLinkedin/> <FaPinterest/>
+      </NavDropdown.Item>
+      </NavDropdown>
+      
+    </Nav>
+    <a class="gradient-button gradient-button"> Create</a>
+    <Button variant="outline-secondary">Wallet</Button>
+  </Navbar.Collapse>
+</Navbar>
+
+
+
+
+
+
+
+
+
+
+
+      {/* <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#" className="nav-logo">
           <img src="assets/images/logo.png" height="40" width="48" alt="Barible" />
           <b className="icon-name">Barible </b>
@@ -21,7 +77,7 @@ export const Header = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="mr-auto my-2 my-lg-0"
+            className="mr-auto my-1 my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
@@ -72,7 +128,7 @@ export const Header = () => {
             </Button>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar> */}
     </div>
   );
 };

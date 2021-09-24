@@ -1,0 +1,23 @@
+
+.Dropdown-main{
+
+    display: flex;
+}
+.multifunction-main1{
+  
+    margin-top: 30px;
+     margin-bottom: 20px;
+     font-size: 32px;
+     font-weight: bold;
+  }
+
+  .dropdown-main11{
+    border-radius: 20px;
+    height: 40px;
+    outline-width: thin;
+    outline-color: rgb(139, 139, 139);
+    outline-offset: 2px;
+    margin-left: 20px;
+    margin-top: 37px;
+  
+  }

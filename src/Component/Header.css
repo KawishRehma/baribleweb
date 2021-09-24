@@ -1,42 +1,25 @@
+
+.navbar-main{
+
+    width: auto;
+}
+
 .nav-logo{
     margin-left:40px;
    
 }
+.nav-logo img{
+    border-radius: 10px;
+}
 .icon-name{
     margin-left: 10px;
 }
-.search-bar{
-    border-radius: 50px;
+
+.mr-2{
+    border-radius: 20px;
+    width: 550px;
 }
-.nav-expl{
-    margin-left: 30px;
-}
-.nav-myitem{
-    margin-left: 30px;
-}
-.nav-foll{
-    margin-left: 30px;
-}
-.nav-act{
-    margin-left: 30px;
-}
-.nav-line{
-    margin-left: 30px;
-}
-.nav-howit{
-    margin-left: 30px;
-}
-.nav-community{
-    margin-left: 30px;
-}
-.btn-connect{
-    margin-top: 20px;
-   height: fit-content;
-    margin-right: 50px;
-}
-.btn-create{
-    margin-left:  20px;
-}
+
 .gradient-button {
     margin: 10px;
     margin-left: 10px;
@@ -57,66 +40,34 @@
     display: inline-block;
     border-radius: 25px;
 }
+.fonts-main{
+    font-size: x-large;
+}
+
 
 .gradient-button {background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)}
 
 
-@media screen and (min-width: 992) and (max-width: 1379) {
-    .nav-logo{
-        margin-left:20px;
-    }
-    .search-bar {
-        visibility: hidden;
-    }
-    .nav-expl{
-        margin-left: 0px;
-    }
-    .nav-myitem{
-        margin-left:  0px;
-    }
-    .nav-foll{
-        margin-left:  0px;
-    }
-    .nav-act{
-        margin-left:  0px;
-    }
-    .nav-line{
-        margin-left:  0px;
-    }
-    .nav-howit{
-        margin-left:  0px;
-    }
-    .nav-community{
-        margin-left:  0px;
-    }
-    .btn-connect{
-        
-        margin-right: 20px;
-    }
-    .btn-create{
-        margin-left:  0px;
+@media screen and (min-width: 1200px) and (max-width: 1475px) { 
+    
+    .mr-2{
+        border-radius: 20px;
+        width: 250px;
     }
 }
-@media screen and (min-width: 768) and (max-width: 991) {
+@media screen and (min-width: 992px) and (max-width: 1199px){
 
-    .nav-logo{
-        margin-left:20px;
+    .mr-2{
+        border-radius: 20px;
+       display: none;
     }
-    .search-bar {
+
+}
+@media screen and (max-width: 991px) {
+
+    .mr-2{
+        border-radius: 20px;
         display: none;
     }
-    .nav-community{
-        margin-right:  20px;
-    }
-    .btn-connect{
-        
-        width: 80px;
-        margin-bottom: 100px;
-    }
-    .btn-create{
-        margin-left:  0px;
-        display: inline-flex;
-    }
-    
-    
+
 }

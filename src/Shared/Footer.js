@@ -1,5 +1,7 @@
 import React from "react";
 import {Link } from "react-router-dom";
+import "./Footer.css"
+
 
 function Footer(props) {
   return (
@@ -37,7 +39,7 @@ function Footer(props) {
               <i className="fa fa-fax fa-lg"></i>: +852 8765 4321
               <br />
               <i className="fa fa-envelope fa-lg"></i>:{" "}
-              <a href="mailto:confusion@food.net">confusion@food.net</a>
+              <a href="mailto:confusion@food.net">Barible@nft.net</a>
             </address>
           </div>
           <div className="col-12 col-sm-4 align-self-center">
@@ -80,7 +82,7 @@ function Footer(props) {
         </div>
         <div className="row justify-content-center">
           <div className="col-auto">
-            <p>© Copyright 2018 Ristorante Con Fusion</p>
+            <p>© Copyright 2018 Barible NFT Token</p>
           </div>
         </div>
       </div>

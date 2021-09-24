@@ -9,6 +9,7 @@ import { TopSeller } from "./TopSeller";
 import Liveauction from "./Liveauction";
 import Hotcollection from "./Hotcollection";
 import ExploreComponent from "./ExploreComponent";
+import CharacterDropDown from "./DropdownComponent";
 
 
 class Explorer extends Component {
@@ -53,7 +54,7 @@ class Explorer extends Component {
         <Collection />
         <Liveauction />
         <Hotcollection />
-        
+        <CharacterDropDown />
         <ExploreComponent />
       </Fragment>
     );

@@ -7,6 +7,8 @@ import { Following } from './Shared/Following';
 import { Howitworks } from './Shared/Howitworks';
 import { Myitems } from './Shared/Myitems';
 import Explorer from './Component/Explorer';
+import Footer from './Shared/Footer';
+
 
 
 
@@ -21,7 +23,7 @@ function App() {
       <Route exact path = "/following" component={Following} />
       <Route exact path = "/activity" component={Activity} />
       <Route exact path = "/howitworks" component={Howitworks} />
-      
+      <Footer />
       </BrowserRouter>
       
       
